@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sabaku Fansub</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #d3d3d3; /* Gri arka plan */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      header {
+        background-color: #696969; /* Koyu gri */
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .logo {
+        height: 100px; /* Boyut iki katına çıkarıldı */
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #696969; /* Koyu gri */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      nav a {
+        color: white;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        font-size: 18px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      nav a:hover {
+        background-color: #a9a9a9; /* Açık gri tonunda hover efekti */
+        color: #d3d3d3; /* Gri */
+        border-radius: 5px;
+      }
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px auto; /* Sayfa ortasına almak için */
+      }
+      .button {
+        display: inline-block;
+        margin: 10px;
+        padding: 20px 40px;
+        background-color: #696969; /* Koyu gri */
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 150px; /* Buton genişliğini ayarlayabilirsiniz */
+        text-align: center;
+      }
+      .button:hover {
+        background-color: #a9a9a9; /* Açık gri */
+      }
+      .button img {
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 80px;
+        height: 80px;
+      }
+      footer {
+        background-color: #696969; /* Koyu gri */
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: auto; /* Footer'ı en alta yerleştir */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="../logo - Kopya-.png" alt="Logo" class="logo" />
+    </header>
+    <nav>
+      <a href="../fansub.html">Ana Sayfa</a>
+      <a href="../anime/anime_sitesi.html">&nbsp;Anime İzle&nbsp;</a>
+      <a href="../manga/manga_sitesi.html">&nbsp;Manga Oku&nbsp;</a>
+      <a href="../norvel/norvel_sitesi.html">&nbsp;Norvel Oku&nbsp;</a>
+      <a href="#">İletişim</a>
+    </nav>
+    <main>
+      <div>
+        <a href="../norvel/Wandering_Witch/bölüm1.html" class="button">
+          <img
+            src="../norvel/Wandering_Witch/Wandering Witch The Journey of Elaina.jpg"
+            alt="Anime 1"
+          />
+          Wandering Witch
+        </a>
+        <a href="#" class="button">
+          <img src="resim2.jpg" alt="Manga 2" />
+          Manga 2
+        </a>
+        <a href="#" class="button">
+          <img src="resim3.jpg" alt="Manga 3" />
+          Manga 3
+        </a>
+        <a href="#" class="button">
+          <img src="resim4.jpg" alt="Manga 4" />
+          Manga 4
+        </a>
+        <a href="#" class="button">
+          <img src="resim5.jpg" alt="Manga 5" />
+          Manga 5
+        </a>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Sabaku Fansub. Tüm hakları saklıdır.</p>
+    </footer>
+  </body>
+</html>

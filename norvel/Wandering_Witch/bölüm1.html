@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roman Okuma Sayfası</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #d3d3d3; /* Gri arka plan */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      header {
+        background-color: #696969; /* Koyu gri */
+        color: white;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      .logo {
+        height: 100px; /* Logo height */
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #696969; /* Koyu gri */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      nav a {
+        color: white;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        font-size: 18px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      nav a:hover {
+        background-color: #a9a9a9; /* Açık gri tonunda hover efekti */
+        color: #d3d3d3; /* Gri */
+        border-radius: 5px;
+      }
+      main {
+        text-align: center;
+        padding: 20px;
+      }
+      .chapter-title {
+        font-size: 2em;
+        color: #379683;
+        margin-bottom: 20px;
+      }
+      .text {
+        background-color: #000000; /* Siyah arka plan */
+        color: #ffffff; /* Beyaz yazı */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: left;
+        line-height: 1.6;
+      }
+      .button {
+        font-size: 24px;
+        background-color: #696969; /* Koyu gri */
+        color: white;
+        text-decoration: none;
+        padding: 15px 30px;
+        margin: 10px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: #a9a9a9; /* Açık gri */
+      }
+      footer {
+        background-color: #696969; /* Koyu gri */
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: auto; /* Footer'ı en alta yerleştir */
+      }
+      .comment-section {
+        margin: 20px auto;
+        max-width: 600px;
+        text-align: left;
+      }
+      .comment-section h2 {
+        background-color: #696969; /* Koyu gri */
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      .comment-section form {
+        display: flex;
+        flex-direction: column;
+      }
+      .comment-section input,
+      .comment-section textarea {
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 8px;
+        border: 1px solid #696969; /* Koyu gri */
+      }
+      .comment-section button {
+        background-color: #696969; /* Koyu gri */
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .comment-section button:hover {
+        background-color: #a9a9a9; /* Açık gri */
+      }
+      .reaction-buttons {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .reaction-buttons img {
+        width: 50px;
+        height: 50px;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: transform 0.3s;
+      }
+      .reaction-buttons img:hover {
+        transform: scale(1.2);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="../../logo - Kopya-.png" alt="Logo" class="logo" />
+    </header>
+    <nav>
+      <a href="../../fansub.html">Ana Sayfa</a>
+      <a href="../../anime/anime_sitesi.html">Anime İzle</a>
+      <a href="../../manga/manga_sitesi.html">Manga Oku</a>
+      <a href="../norvel_sitesi.html">&nbsp;Norvel Oku&nbsp;</a>
+      <a href="contact.html">İletişim</a>
+    </nav>
+    <main>
+      <div class="chapter-title">Bölüm 1: Giriş</div>
+      <div class="text">
+        <h1>Büyücüler Ülkesi</h1>
+
+        <p>
+          Sessiz bir ülkeydi, sarp, ürkütücü dağlarla çevrili ve yüksek
+          duvarlarla gizlenmişti. Dış dünyadan kimse ziyaret edemezdi.
+        </p>
+
+        <p>
+          Parlak güneş ışığında ısıdan titreyen bir kaya yüzeyinin üzerinde, tek
+          bir süpürge sıcak havada süzülüyordu. Yolu yönlendiren ise güzel bir
+          genç kızdı. Üzerinde siyah bir cübbe ve sivri uçlu bir şapka vardı, ve
+          kül rengi saçları rüzgarda savruluyordu. Eğer etrafta onu görebilecek
+          biri olsaydı, bakıp iç çekerek o süpürgedeki güzelliğin kim olduğunu
+          merak ederdi…
+        </p>
+
+        <p>Evet, doğru. O benim.</p>
+
+        <p>Ah, bu bir şakaydı.</p>
+
+        <p>“...Neredeyse geldik.”</p>
+
+        <p>
+          Yüksek duvar, dağdan oyulmuş gibi görünüyordu. Biraz aşağıya baktım ve
+          kapıyı fark ederek süpürgemi ona doğru yönlendirdim.
+        </p>
+
+        <p>
+          Bu ülkeye ulaşmak oldukça zorlayıcı bir işti, ama buradaki insanların
+          bunu böyle planladığını düşünüyorum—insanların yanlışlıkla girmesini
+          engellemek için. Sonuçta, buraya neden gelmek isteyecek birinin çok
+          iyi bir nedeni olmalı.
+        </p>
+
+        <p>
+          Kapının tam önünde süpürgemden indim. Görünüşe göre göçmenlik
+          kontrolleri yapan bir nöbetçi yanıma geldi.
+        </p>
+
+        <p>
+          Beni baştan ayağa dikkatlice inceleyip göğsümdeki broşu kontrol
+          ettikten sonra, neşeyle gülümsedi.
+        </p>
+
+        <p>“Büyücüler Ülkesine hoş geldiniz. Buyurun, Cadı Hanım.”</p>
+
+        <p>“Hımm? Sihir yapma yeteneğimi test etmeniz gerekmiyor mu?”</p>
+
+        <p>
+          Bu ülkeye gelen herkesin sihir yeteneğini kanıtlaması gerektiğini
+          duymuştum; belirli bir standardı karşılamayanlar geri çevriliyordu.
+        </p>
+
+        <p>
+          “Sizi uçarken gördüm. Ayrıca, üzerinizdeki broş bir cadı olduğunuzu
+          gösteriyor. Lütfen, devam edin.”
+        </p>
+
+        <p>
+          Evet, doğru. Bir süpürgeyle uçmak, girişin en az gerekliliklerinden
+          biridir. Kapı kulübesinden yaklaşmamı görebilirlerdi. Ne kadar da
+          saçma!
+        </p>
+
+        <p>
+          Gardiyana hafifçe selam verdikten sonra, büyük kapıdan geçtim. İşte
+          burası büyücülerin ülkesi. Acemi sihirbazlar, çıraklar ve tam yetkili
+          cadılar—sihrinizi kullanabildiğiniz sürece bu ilginç ülkeye kabul
+          ediliyorsunuz, diğer herkes geri çevriliyor.
+        </p>
+
+        <p>
+          Dev kapıdan geçerken, yan yana duran iki garip tabela gözüme çarptı.
+          Karışıklık içinde onlara baktım.
+        </p>
+
+        <p>
+          İlk tabela, bir süpürgeye binen bir büyücüyü bir daire içinde tasvir
+          ediyordu. Yanındaki tabela ise bir askerin yürüdüğünü, etrafında bir
+          üçgen olduğunu gösteriyordu.
+        </p>
+
+        <p>Bu tabelalar ne anlama geliyor?</p>
+
+        <p>
+          Yanıtı hemen yukarıya bakınca aldım—kalabalık tuğla evlerin üstünde ve
+          parlayan güneşin altında, her türden büyücü gökyüzünde her yöne doğru
+          hızla uçuyordu.
+        </p>
+
+        <p>
+          Anladım. Sadece büyücülerin girmesine izin verilen ülkelerde bu bir
+          kural olmalı—çoğu kişi süpürgeyle uçtuğundan, yürüyen çok az insan
+          var.
+        </p>
+
+        <p>
+          Tabela açıklamama memnun kalmış olarak, süpürgemi çıkarıp yan oturdum.
+          Yerden hafifçe iterek havaya süzüldüm, tabelanın canlı bir gösterimini
+          yaparak.
+        </p>
+
+        <p>“Burada uçmak tercih edilen ulaşım şekli, öyle mi?”</p>
+
+        <p>
+          Böylece, büyücülerin ülkesini olması gerektiği gibi gördüm.
+          Kızıl-kahverengi çatılar gibi görünen kuru toprakların üstünde,
+          büyücüler havada süzülüyordu. Bazıları süpürgelerini durdurarak
+          arkadaşça sohbet ediyordu, bazıları ise süpürgelerine bağlı yüklerle
+          geçiyordu. Şüpheli, cadı gibi görünen yaşlı kadınlar ile gökyüzünde
+          yarışan çocuklar vardı, kim daha yükseğe uçar diye.
+        </p>
+
+        <p>Bu insanlar tüm yaşamlarını havada geçiriyor olmalı.</p>
+
+        <p>Gerçekten muazzam bir manzaraydı. Neredeyse nefesimi kesmişti.</p>
+
+        <p>
+          Sıralarına katıldım, ülkenin üzerinde süzülerek etrafımdaki hava
+          trafiğine kendimi bıraktım. Birden çatılardan birinin tepesine
+          tutturulmuş bir tabela gözüme çarptı. Görünüşe göre bir PANSİYON'du.
+          Durdurmadan geçip, bir sonraki tabelayı gördüm: MARKET. Diğerleri de
+          vardı: KASAP ve hatta KELLECİ. Şüphelendiğim gibi, burada yaşam
+          çatılar üstünde sürdürülüyor ve tabelalar çatının üstüne yerleştirmek
+          yaygın bir uygulama olmalıydı.
+        </p>
+
+        <p>
+          Etrafa bakarken, çoğu evin çatısında bir kişinin geçebileceği
+          büyüklükte bir pencere olduğunu gördüm. Dalgın bir şekilde izlerken, o
+          pencerelerden birisi açıldı ve bir süpürgeye binen bir adam uçtu.
+        </p>
+
+        <p>Demek ki bunlar bunun için kullanılıyormuş.</p>
+
+        <p>Rahat bir hızda uçuyordum, manzarayı yavaşça sindirerek, ta ki—</p>
+
+        <p>“Ahhhhhhhhhhhhhhh!”</p>
+
+        <p>
+          —arkamdan bir çığlık geldi. Süpürgemi bir elle dengeleyip, şapkamın
+          uçmaması için tutarak döndüm.
+        </p>
+
+        <p>Ah, çok geç.</p>
+
+        <p>“Ahhhhhhhhhhh!”</p>
+
+        <p>
+          Çığlık atan kişi, ağlayan bir kuyrukla birlikte hızla üzerine doğru
+          geliyordu ve ben onları fark ettiğimde, sadece bir çatı yüksekliği
+          kadar yakındı.
+        </p>
+
+        <p>Kaçmak? İmkansız.</p>
+
+        <p>
+          Refleks olarak üst vücudumu çevirdim ama çarpışmadan kaçış yoktu. Bir
+          dizi inleme (“Ugya!” “Geh”) ile birbirimize dolandık ve alttaki çatıya
+          çakıldık. Düzgün sıralanmış kiremitler bir gürültüyle yerinden çıktı
+          ve nihayet çatı kenarına düşmeden durduk. Bir kiremit zıp zıp zıpladı.
+        </p>
+      </div>
+      <br />
+      <a href="index.html" class="button">Ana Sayfaya Dön</a>
+      <a href="chapter2.html" class="button">Sonraki Bölüm</a>
+      <br /><br />
+      <div class="comment-section">
+        <h2>Yorumlar</h2>
+        <div class="reaction-buttons">
+          <img
+            src="reaction1.jpg"
+            alt="Heyecan Verici"
+            title="Heyecan Verici"
+          />
+          <img src="reaction2.jpg" alt="Süper" title="Süper" />
+          <img src="reaction3.jpg" alt="Hmm" title="Hmm" />
+          <img src="reaction4.jpg" alt="Eh İşte" title="Eh İşte" />
+          <img src="reaction5.jpg" alt="Bu Ne" title="Bu Ne" />
+        </div>
+        <form>
+          <label for="name">Adınız:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="comment">Yorumunuz:</label>
+          <textarea id="comment" name="comment" rows="4" required></textarea>
+          <button type="submit">Gönder</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Sabaku Fansub. Tüm hakları saklıdır.</p>
+    </footer>
+  </body>
+</html>
